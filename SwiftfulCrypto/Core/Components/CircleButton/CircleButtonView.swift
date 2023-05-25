@@ -39,6 +39,5 @@ struct CircleButtonView_Previews: PreviewProvider {
                 .previewLayout(.sizeThatFits)
                 .preferredColorScheme(.dark)
         }
-        
     }
 }

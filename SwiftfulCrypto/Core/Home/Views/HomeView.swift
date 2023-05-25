@@ -34,6 +34,7 @@ struct HomeView_Previews: PreviewProvider {
     }
 }
 
+//MARK: - HomeHeader
 extension HomeView{
     private var homeHeader: some View{
         HStack{
