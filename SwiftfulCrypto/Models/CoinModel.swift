@@ -9,8 +9,8 @@ import Foundation
 
 //call Coin in production app
 class CoinModel{
-    let name:String
-    init(name: String) {
-        self.name = name
+    let name1:String
+    init(name1: String) {
+        self.name1 = name1
     }
 }
