@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2A8F882A1445D300B1A343 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A8F872A1445D300B1A343 /* Color.swift */; };
+		7A2A8F8E2A1449D700B1A343 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A8F8D2A1449D700B1A343 /* HomeView.swift */; };
+		7A2A8F922A144B2300B1A343 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A8F912A144B2300B1A343 /* CircleButtonView.swift */; };
+		7A2A8F942A1457D100B1A343 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A8F932A1457D100B1A343 /* CircleButtonAnimationView.swift */; };
+		7A2A8F972A15B1F500B1A343 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A8F962A15B1F500B1A343 /* CoinModel.swift */; };
 		7A8EB84F2A143C4400CCBE92 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EB84E2A143C4400CCBE92 /* SwiftfulCryptoApp.swift */; };
 		7A8EB8512A143C4400CCBE92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EB8502A143C4400CCBE92 /* ContentView.swift */; };
 		7A8EB8532A143C4600CCBE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8EB8522A143C4600CCBE92 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A2A8F872A1445D300B1A343 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7A2A8F8D2A1449D700B1A343 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7A2A8F912A144B2300B1A343 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		7A2A8F932A1457D100B1A343 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		7A2A8F962A15B1F500B1A343 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		7A8EB84B2A143C4400CCBE92 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8EB84E2A143C4400CCBE92 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		7A8EB8502A143C4400CCBE92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A2A8F862A1445C200B1A343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F872A1445D300B1A343 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A2A8F892A14498700B1A343 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F8F2A144AF000B1A343 /* Components */,
+				7A2A8F8A2A14499900B1A343 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7A2A8F8A2A14499900B1A343 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F8C2A1449B200B1A343 /* ViewModels */,
+				7A2A8F8B2A1449A500B1A343 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A2A8F8B2A1449A500B1A343 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F8D2A1449D700B1A343 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A2A8F8C2A1449B200B1A343 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7A2A8F8F2A144AF000B1A343 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F902A144B0B00B1A343 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7A2A8F902A144B0B00B1A343 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F912A144B2300B1A343 /* CircleButtonView.swift */,
+				7A2A8F932A1457D100B1A343 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		7A2A8F952A15B1AB00B1A343 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A8F962A15B1F500B1A343 /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7A8EB8422A143C4400CCBE92 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				7A8EB84E2A143C4400CCBE92 /* SwiftfulCryptoApp.swift */,
+				7A2A8F862A1445C200B1A343 /* Extensions */,
+				7A2A8F952A15B1AB00B1A343 /* Models */,
+				7A2A8F892A14498700B1A343 /* Core */,
 				7A8EB8502A143C4400CCBE92 /* ContentView.swift */,
 				7A8EB8522A143C4600CCBE92 /* Assets.xcassets */,
 				7A8EB8542A143C4600CCBE92 /* Preview Content */,
@@ -138,7 +217,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A8EB8512A143C4400CCBE92 /* ContentView.swift in Sources */,
+				7A2A8F8E2A1449D700B1A343 /* HomeView.swift in Sources */,
 				7A8EB84F2A143C4400CCBE92 /* SwiftfulCryptoApp.swift in Sources */,
+				7A2A8F922A144B2300B1A343 /* CircleButtonView.swift in Sources */,
+				7A2A8F882A1445D300B1A343 /* Color.swift in Sources */,
+				7A2A8F942A1457D100B1A343 /* CircleButtonAnimationView.swift in Sources */,
+				7A2A8F972A15B1F500B1A343 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
